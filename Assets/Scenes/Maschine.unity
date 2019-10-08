@@ -168,6 +168,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 15
   noteNumber: 50
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &480646363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -198,7 +200,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -275,6 +277,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 5
   noteNumber: 40
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &591411135
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -305,7 +309,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -382,6 +386,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 11
   noteNumber: 46
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &660972423
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -412,7 +418,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -539,6 +545,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 13
   noteNumber: 48
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &797451667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -569,7 +577,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -646,6 +654,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 2
   noteNumber: 37
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &870439400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -676,7 +686,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -799,6 +809,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 7
   noteNumber: 42
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &1292879179
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -829,7 +841,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -906,6 +918,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 9
   noteNumber: 44
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &1306776816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -936,7 +950,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1076,6 +1090,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 6
   noteNumber: 41
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &1340542134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1106,7 +1122,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1255,6 +1271,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 8
   noteNumber: 43
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &1493099454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1285,7 +1303,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1362,6 +1380,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 14
   noteNumber: 49
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &1586530176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1392,7 +1412,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1766,6 +1786,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 1
   noteNumber: 36
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &1761102296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1796,7 +1818,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1873,6 +1895,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 4
   noteNumber: 39
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &1793139730
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1903,7 +1927,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1980,6 +2004,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 3
   noteNumber: 38
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &1827088972
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2010,7 +2036,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2087,6 +2113,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 12
   noteNumber: 47
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &1839217772
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2117,7 +2145,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2194,6 +2222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 16
   noteNumber: 51
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &1930223230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2224,7 +2254,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2301,6 +2331,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubeNumber: 10
   noteNumber: 45
+  cubeMaterial: {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
+  cubeMaterialFlash: {fileID: 2100000, guid: 8d7954baece6f4a00b2880da1af55b02, type: 2}
 --- !u!65 &1943523440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2331,7 +2363,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b7b960087286a4b47b01d90cef6e5a19, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
