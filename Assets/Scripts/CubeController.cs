@@ -10,14 +10,19 @@ namespace MaschineVisualizer
         [SerializeField] private int cubeNumber;
         [SerializeField] private int noteNumber;
 
+        [SerializeField]
         private Material cubeMaterial;
+
+        [SerializeField] private Material cubeMaterialFlash;
+
+        private MeshRenderer renderer; 
 
         private bool isFlashing;
 
         private void Awake()
         {
-            cubeMaterial = GetComponent<MeshRenderer>().material; 
-            cubeMaterial.SetColor("_Color", Color.white);
+            renderer = GetComponent<MeshRenderer>();
+            renderer.material = cubeMaterial; 
         }
 
         private void Update()
@@ -36,10 +41,10 @@ namespace MaschineVisualizer
         private IEnumerator FlashColor()
         {
             Debug.Log($"Flashing {noteNumber}");
-            isFlashing = true; 
-            cubeMaterial.SetColor("_Color", Color.magenta);
+            isFlashing = true;
+            renderer.material = cubeMaterialFlash;
             yield return new WaitForSeconds(0.07f);
-            cubeMaterial.SetColor("_Color", Color.white);
+            renderer.material = cubeMaterial; 
             isFlashing = false;
         }
     }
